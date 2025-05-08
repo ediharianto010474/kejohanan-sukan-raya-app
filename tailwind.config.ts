@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Athletic competition theme colors
+				athletic: {
+					primary: '#E63946', // track-red
+					secondary: '#1D3557', // navy blue
+					accent: '#457B9D', // light blue
+					light: '#F1FAEE',
+					gray: '#A8DADC',
 				}
 			},
 			borderRadius: {
